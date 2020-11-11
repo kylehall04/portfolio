@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', cursive;
+  text-align: center;
+}
+
+body img {
+  width: 100%;
+}
+
+.top {
+  font-size: 72px;
+  color: white;
+}
+
+header {
+  background-color: #7f09a3;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-size: 20px;
+}
+
+header nav ul li a:hover {
+  color: turquoise;
+}
+
+main {
+  background-color: turquoise;
+}
+
+.intro {
+  padding: 20px;
+}
+
+.aboutme {
+  background-color: #7f09a3;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: 40px 0;
+  color: white;
+  flex-direction: row;
+}
+
+.contact {
+  background-color: #7f09a3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 80px 0;
+  color: white;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 20px;
+}
+
+form input {
+  width: 100%;
+}
+
+form textarea {
+  height: 100px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 28px;
+  color: black;
+  margin: 0;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: turquoise;
+}
+
+/* desktop version */
+
+@media all and (min-width: 800px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top {
+    margin: 12px 10px 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+  header nav {
+    margin-top: 18px;
+  }
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
